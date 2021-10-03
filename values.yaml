@@ -111,7 +111,7 @@ persistence:
     - ReadWriteOnce
   labels: {}
   annotations: {}
-  # storageClass:
+  storageClass: nfs
 
 # additional volumes to add to the Gitea statefulset.
 extraVolumes:
